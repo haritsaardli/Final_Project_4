@@ -10,22 +10,23 @@
 	<body>
 		<h1>Weather Forecast</h1>
 
-        <form action="" method="get">
-            <input type="text" id="" placeholder="City">
-            <input type="button" value="Submit">
+        <form>
+            <input type="text" id="input" placeholder="City">
+            <!-- <button type="submit" onClick="findCity()" value="Submit"> -->
+            <button onClick="findCity()" type='button'>submit</button> 
         </form>
 
         <p>
-            City : <span id="city">Smg</span>
+            City : <span id="city">Search City</span>
         </p>
         <p>
-            Condition : <span id="cloud">Cloud</span>
+            Condition : <span id="cloud">-</span>
         </p>
         <p>
-            Temperature : <span id="temp"> 30 derajat</span>
+            Temperature : <span id="temp">-</span>
         </p>
         <p>
-            Wind speed : <span id="windSpeed"> 120 kmph</span>
+            Wind speed : <span id="windSpeed">-</span>
         </p>
 
 
