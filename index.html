@@ -6,21 +6,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Weather</title>
 		<link rel="stylesheet" href="assets/style.css" />
+		
+		
 	</head>
 	<body>
 		<h1>Weather Forecast</h1>
 
-		<form>
-			<input type="text" id="input" placeholder="City" />
-			<!-- <button type="submit" onClick="findCity()" value="Submit"> -->
-			<button onClick="findCity()" type="button">submit</button>
-		</form>
+
+		<input id="input" type="text" size="20">
+
 
 		<p>City : <span id="city">Search City</span></p>
 		<p>Condition : <span id="cloud">-</span></p>
 		<p>Temperature : <span id="temp">-</span></p>
 		<p>Wind speed : <span id="windSpeed">-</span></p>
 
-		<script src="assets/index.js"></script>
+		<!-- <script src="assets/index.js"></script> -->
+		<script src="assets/api.js"></script>
 	</body>
 </html>
