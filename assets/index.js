@@ -41,7 +41,7 @@ function weatherAPI(p) {
 	let params = {
 		units: "metric",
 		lang: "id",
-		appid: "8a59485fc0098295507e55078609bfee"
+		appid: ""
 	}
 	Object.assign(params,p)
 
